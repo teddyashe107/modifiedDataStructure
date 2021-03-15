@@ -33,7 +33,7 @@ public class DynamicQueue {
 			resize(maxSize / 2);
 			return dequeue();
 		} else {
-			System.out.println("The stack is already empty");
+			System.out.println("The queue is already empty");
 			return -1;
 		}
 	}
@@ -43,7 +43,7 @@ public class DynamicQueue {
 			return queue[bootom];
 
 		else {
-			System.out.println("stack is empty");
+			System.out.println("queue is empty");
 			return -1;
 		}
 	}
